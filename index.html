@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SK Mart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        img{
+            height: 200px;
+            width: 300px;
+        }
+        .container{
+            display: flex;
+            gap: 100px;
+            justify-content: center;
+        }
+        h1 , h2{
+            text-align: center;
+        }
+        #navbar{
+            display: flex;
+            gap: 50px;
+            justify-content: center;    
+        }
+        i{
+            background-color: orange;
+            padding: 3px;
+            border-radius: 3px;
+        }
+        a{
+            font-size: 20px;
+        }
+        #search{
+            width: 300px;
+            border-radius: 5px;
+        }
+        .logo{
+            display: flex;
+            justify-content: center;
+        }
+        #logo{
+            background-color: #F7DCB9;
+        }
+        .item{
+            text-align: center;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        img{
+            border:3px solid black;
+        }
+    
+    
+    </style>
+</head>
+<body bgcolor="#F7DCB9">
+    <div class="logo"><img src="sk_logo.png"></div>
+    <h1>SK Mart</h1>
+    <div id="navbar">
+        <div><a href="">Home</a></div>
+        <div><input type="search" id="search" placeholder="search"><i class="fa-solid fa-magnifying-glass"></i></div>
+        <div><a href="contact_us.html">Contact Us</a></div>
+        <div><a href="login.html">Login</a><i class="fa-solid fa-user" id="logo"></i></div> 
+    </div>
+    <h2>Men & Women Fashion</h2>
+    <div class="container">
+        <div><img src="shirt.jpg" alt=""><div class="item">Men Clothing</div></div>
+        <div><img src="fashion_accesories.jpeg" alt=""><div class="item">Fashion Accesories</div></div>
+        <div><img src="women.webp" alt=""><div class="item">Women Clothing</div></div>
+    </div>
+    <h2>Electronics</h2>
+    <div class="container">
+        <div><img src="vivo-mobile-phone.png" alt=""><div class="item">Mobile</div></div>
+        <div><img src="laptop.jpeg" alt=""><div class="item">Laptops</div></div>
+        <div><img src="charger.webp" alt=""><div class="item">Accesories</div></div>
+    </div>
+    <h2>Jewellery</h2>
+    <div class="container">
+        <div><img src="neckace.jpeg" alt=""><div class="item">Necklace</div></div>
+        <div><img src="ring.webp" alt=""><div class="item">Rings</div></div>
+        <div><img src="kangans.jpeg" alt=""><div class="item">Kangans</div></div>
+    </div>
+    
+</body>
+</html>

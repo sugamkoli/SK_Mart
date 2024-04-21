@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SK-Login</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <style>
+      .container {
+        display: flex;
+        justify-content: center;
+      }
+      .container1 {
+        margin-top: 50px;
+        height: 300px;
+        width: 400px;
+        border: 2px solid black;
+        border-radius: 15px;
+        background-color: #DEAC80;
+        
+      }
+      h1{
+        text-align: center;
+      }
+      img{
+        height: 100px;
+        width: 100px;
+        border:2px solid black;
+        margin:5px;
+      }
+      #logoo{
+        display: flex;
+        justify-content: center;
+      }
+      #navbar{
+            display: flex;
+            gap: 50px;
+            justify-content: center;
+        }
+        i{
+            background-color: orange;
+            padding: 3px;
+            border-radius: 3px;
+        }
+        a{
+            font-size: 20px;
+        }
+        #search{
+            width: 300px;
+            border-radius: 5px;
+        }
+        .logo{
+            display: flex;
+            justify-content: center;
+        }
+        #logo{
+            background-color: #F7DCB9;
+        }
+        h1{
+            text-align: center;
+        }
+        #butt{
+            margin-left: 45%;
+        }
+        .arr{
+            width: 70%;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="logo"><img src="sk_logo.png"></div>
+    <h1>SK Mart</h1>
+    <div id="navbar">
+        <div><a href="index.html">Home</a></div>
+        <div><input type="search" id="search"><i class="fa-solid fa-magnifying-glass"></i></div>
+        <div><a href="contact_us.html">Contact Us</a></div>
+        <div><a href="login.html">Login</a><i class="fa-solid fa-user" id="logo"></i></div> 
+    </div>
+    <div class="container">
+      <div class="container1">
+        <div id="logoo"><img src="sk_logo.png" alt=""></div>
+        <h1>Login/Sign In</h1>
+        <b>Username</b> <input class="arr" type="text">
+        <br>
+        <b>Password</b> <input class="arr" type="password">
+        <br>
+        <button type="submit" id="butt">Login</button>
+      </div>
+    </div>
+  </body>
+</html>
